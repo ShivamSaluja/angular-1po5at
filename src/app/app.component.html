@@ -1,0 +1,21 @@
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news" onclick="">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<hello name="{{ name }}"></hello>
+<p>
+    Start editing to see hey magic happen :)
+</p>
+
+<h2>{{hero.name}} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div><span>name: </span>{{hero.name}}</div>
+
+<div>
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name"/>
+  </label>
+</div>
