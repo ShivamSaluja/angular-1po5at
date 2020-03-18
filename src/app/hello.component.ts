@@ -8,4 +8,7 @@ import { Component, Input} from '@angular/core';
 export class HelloComponent  {
   @Input() name: string;
   
+  onSave($event){    
+    console.log("Save button is clicked!", $event);    
+  }   
 }

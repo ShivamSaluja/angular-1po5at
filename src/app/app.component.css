@@ -4,7 +4,7 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(61, 100, 145);
 }
 .topnav a {
   float: left;
@@ -15,11 +15,11 @@ body {
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(170, 77, 77);
   color: black;
 }
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: rgb(154, 211, 156);
   color: white;
 }
 
@@ -29,8 +29,9 @@ p {
 }
 
 :host {
-  display: block;
-  border: 1px solid black;
+      display: block;
+      background-color: rgb(152, 225, 228)
+    ;
 }
 
 :host(.active) {
