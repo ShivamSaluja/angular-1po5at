@@ -1,5 +1,6 @@
 import { Component, Input} from '@angular/core';
 
+
 @Component({
   selector: 'hello',
   template: `<h1>Hello {{name}}!</h1>`,
@@ -7,8 +8,6 @@ import { Component, Input} from '@angular/core';
 })
 export class HelloComponent  {
   @Input() name: string;
+     
   
-  onSave($event){    
-    console.log("Save button is clicked!", $event);    
-  }   
 }

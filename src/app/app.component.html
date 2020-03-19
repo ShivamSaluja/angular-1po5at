@@ -1,9 +1,10 @@
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#news" onclick="">News</a>
+  <a href="#news" (click)="getHeroes()">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
 </div>
+
 
 <hello name="{{ name }}"></hello>
 <p>
@@ -18,4 +19,11 @@
   <label>name:
     <input [(ngModel)]="hero.name" placeholder="name"/>
   </label>
+</div>
+
+
+<div class="bootomnav">
+  <b class="active" href="#home">Home</b>
+  <b href="#news">News</b>
+  <b  href="test" (click)="toggleChild"> test</b>
 </div>
